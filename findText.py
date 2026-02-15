@@ -3,7 +3,7 @@ import sys
 import re
 
 if len(sys.argv) < 3 or sys.argv[1] == "--h":
-    print("findText.py: HELP\npython3 findText.py <Text> <FileType> <logging>:\n\t<Type>: Specifies either 1 file '--file' or a whole directory '--dir'.\n\t<Text>: Phrase to look for.\n\t<logging>: Optional but if set --verbose prints errors.")
+    print("findText.py: HELP\npython3 findText.py <Text> <Location> <FileType> <logging>:\n\t<Type>: Specifies either 1 file '--file' or a whole directory '--dir'.\n\t<Text>: Phrase to look for.\n\t<logging>: Optional but if set --verbose prints errors.")
     sys.exit(1)
 
 FindText = sys.argv[1]
